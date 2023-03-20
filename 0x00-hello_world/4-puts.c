@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
- *main - entry point
- *return: always 0 (success)
+ *main - a program that prints a line with puts function 
+ *Return: 0 (Success)
  */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
-	return 0;
+	return (0);
 }
 
