@@ -1,4 +1,3 @@
-9-print_comb.c
 #include <stdio.h>
 
 /**
