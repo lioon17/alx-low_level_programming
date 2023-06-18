@@ -1,4 +1,3 @@
-5-print_numbers.c
 #include <stdio.h>
 
 /**
