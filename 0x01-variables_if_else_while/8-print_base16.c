@@ -1,4 +1,3 @@
-8-print_base16.c
 #include <stdio.h>
 
 /**
