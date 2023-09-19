@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+/**
+ * add - Adds two integers.
+ * sub - Subtracts two integers.
+ * mul - Multiplies two integers.
+ * div - Divides two integers
+ * mod - Computes the remainder of dividing two integers.
+ */
+int add(int a, int b) {
+	return a + b;
+}
+
+int sub(int a, int b) {
+	return a - b;
+}
+
+int mul(int a, int b) {
+	return a * b;
+}
+
+int div(int a, int b) {
+	if (b == 0) {
+		fprintf(stderr, "Division by zero!\n");
+		return 0; // Handle division by zero error.
+	}
+	return a / b;
+}
+
+int mod(int a, int b) {
+	if (b == 0) {
+		fprintf(stderr, "Modulo by zero!\n");
+		return 0; // Handle modulo by zero error.
+	}
+	return a % b;
+}
